@@ -6,7 +6,13 @@ public class main {
     Stack<String> stack = new Stack<String>();
     stack.push("laptop");
     stack.push("headphone");
+    stack.push("Book");
+    stack.push("Mobile");
 
-    System.out.println(stack);
+    // System.out.println(stack.peek());
+    
+    
+
+    System.out.println(stack.search(""));
     }
 }
